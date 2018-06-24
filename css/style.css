@@ -3321,7 +3321,7 @@ header.sticky nav.navbar.brand-center ul.nav > li > a {padding: 20px; margin: 0 
 .counter-box-3 .counter-box span {font-weight: 400; font-size: 12px; line-height: 28px; text-transform: uppercase;}
 
 /* counter box style 4 */
-.counter-box-4 .timer:after {content: "+"; position: absolute; right: -5%; top: 35%; color: #b6b6b6; font-weight: 300;}
+.counter-box-4 .timer:after {content: ""; position: absolute; right: -5%; top: 35%; color: #b6b6b6; font-weight: 300;}
 .counter-box-4:last-child .timer:after {display:none;}
 
 /* counter box style 5 */

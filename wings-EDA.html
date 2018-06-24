@@ -50,66 +50,79 @@
 <body>
    
     <!-- start header -->
-        <header>
-            <!-- start navigation -->
-            <nav class="navbar navbar-default bootsnav bg-black header-dark white-link navbar-top">
-                                <div class="container nav-header-container">
-                    <div class="row">
-                        <!-- start logo -->
-                        <div class="col-md-1 col-xs-5">
-                            <a href="./index.html" title="Tesla" class="logo"><img src="./images/logo-white.png" alt="Tesla" class="logo-light default" /></a>
-                        </div>
-                        <div class="col-md-6 col-xs-5">
-                            <a href="https://www.iiita.ac.in/" title="IIITA" class="logo"><img src="./images/iiita.jpg" alt="IIITA" class="logo-light default" /></a>
-                        </div>
-
-                        <!-- end logo -->
-                        <div class="col-md-6 col-xs-2 width-auto pull-right accordion-menu xs-no-padding-right">
-                            <button type="button" class="navbar-toggle collapsed pull-right" data-toggle="collapse" data-target="#navbar-collapse-toggle-1">
-                                <span class="sr-only">toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <div class="navbar-collapse collapse pull-right" id="navbar-collapse-toggle-1">
-                                <ul id="accordion" class="nav navbar-nav navbar-left no-margin alt-font text-normal" data-in="fadeIn" data-out="fadeOut">
-                                    <!-- start menu item -->
-                                    <li class="dropdown megamenu-fw">
-                                        <a href="index.html">Home</a><i class="fa fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
-                                        <!-- start sub menu -->
-                                        
-                                    </li>
-                                    <!-- end menu item -->
-                                    <li class="dropdown simple-dropdown"><a href="./team.html">Team</a><i class="fa fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
+    <header>
+        <!-- start navigation -->
+        <nav class="navbar navbar-default bootsnav bg-black header-dark white-link navbar-top">
+            <div class="container nav-header-container">
+                <div class="row">
+                    <!-- start logo -->
+                    <div class="col-md-1 col-xs-4">
+                        <a href="./index.html" title="Tesla" class="logo"><img src="./images/logo-white.png" alt="Tesla" class="logo-light default" /></a>
+                    </div>
+                    <div class="col-md-3 col-xs-4">
+                        <a href="https://www.iiita.ac.in/" title="IIITA" class="logo"><img src="./images/iiita.jpg" alt="IIITA" class="logo-light default" /></a>
+                    </div>
+                    <!-- end logo -->
+                    <div class="col-md-8 col-xs-4 width-auto pull-right accordion-menu xs-no-padding-right">
+                        <button type="button" class="navbar-toggle collapsed pull-right" data-toggle="collapse" data-target="#navbar-collapse-toggle-1">
+                            <span class="sr-only">toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div class="navbar-collapse collapse pull-right" id="navbar-collapse-toggle-1">
+                            <ul id="accordion" class="nav navbar-nav navbar-left no-margin alt-font text-normal" data-in="fadeIn" data-out="fadeOut">
+                                <!-- start menu item -->
+                                <li class="dropdown megamenu-fw">
+                                    <a href="javascript:void(0);">Home</a><i class="fa dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
+                                    <!-- start sub menu -->
+                                    
+                                </li>
+                                <!-- end menu item -->
+                                <li class="dropdown simple-dropdown"><a href="team.html">Team</a><i class="fa dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
+                                   
+                                </li>
+                                <li class="dropdown simple-dropdown"><a href="gallery.html">Gallery</a><i class="fa dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
                                        
-                                    </li>
+                                </li>
+                                
+                                <li class="dropdown simple-dropdown"><a href="events.html">Events</a><i class="fa dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
                                     
-                                    <li class="dropdown simple-dropdown"><a href="./events.html" title="Blog">Events</a><i class="fa fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
-                                        
-                                    </li>
-                                    <li class="dropdown megamenu-fw">
-                                        <a href="./contact.html">Contact</a><i class="fa fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
-                                        
-                                    </li>
+                                </li>
+                                <li class="dropdown megamenu-fw">
+                                    <a href="contact.html">Contact</a><i class="fa dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
                                     
-                                </ul>
-                            </div>
+                                </li>
+                                
+                            </ul>
                         </div>
-                        <div class="col-md-2 col-xs-5 width-auto">
-                            <div class="header-social-icon xs-display-none">
-                                <a href="https://www.facebook.com/Tesla.IIITA/" title="Facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                <a href="https://twitter.com/" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
-                            </div>
+                    </div>
+                    <div class="col-md-2 col-xs-5 width-auto">
+                        <div class="header-searchbar">
+                            <a href="#search-header" class="header-search-form text-white"><i class="fa fa-search search-button"></i></a>
+                            <!-- search input-->
+                            <form id="search-header" method="post" action="search-result.html" name="search-header" class="mfp-hide search-form-result" />
+                                <div class="search-form position-relative">
+                                    <button type="submit" class="fa fa-search close-search search-button"></button>
+                                    <input type="text" name="search" class="search-input" placeholder="Enter your keywords..." autocomplete="off" />
+                                </div>
+                            </form>
+                        </div>
+                        <div class="header-social-icon xs-display-none">
+                            <a href="https://www.facebook.com/" title="Facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="https://twitter.com/" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a href="https://dribbble.com/" title="Dribbble" target="_blank"><i class="fa fa-dribbble"></i></a>                          
                         </div>
                     </div>
                 </div>
-            </nav>
-            <!-- end navigation -->  
-        </header>
+            </div>
+        </nav>
+        <!-- end navigation -->  
+    </header>
         <!-- end header -->
 
       <!-- start information section -->
-      <section class="bg-light-gray" style="margin-top: 70px, padding-bottom: 15px">
+      <section class="bg-light-gray" style="margin-top: 70px; padding-bottom: 15px">
         <div class="container">
             <div class="row equalize sm-equalize-auto">
                 <div class="col-md-5 col-sm-12 sm-margin-30px-bottom wow fadeInLeft">
