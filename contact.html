@@ -72,7 +72,7 @@
                                 <ul id="accordion" class="nav navbar-nav navbar-left no-margin alt-font text-normal" data-in="fadeIn" data-out="fadeOut">
                                     <!-- start menu item -->
                                     <li class="dropdown megamenu-fw">
-                                        <a href="index.html">Home</a><i class="fa dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
+                                        <a href="javascript:void(0);">Home</a><i class="fa dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
                                         <!-- start sub menu -->
                                         
                                     </li>
@@ -96,9 +96,20 @@
                             </div>
                         </div>
                         <div class="col-md-2 col-xs-5 width-auto">
+                            <div class="header-searchbar">
+                                <a href="#search-header" class="header-search-form text-white"><i class="fa fa-search search-button"></i></a>
+                                <!-- search input-->
+                                <form id="search-header" method="post" action="search-result.html" name="search-header" class="mfp-hide search-form-result" />
+                                    <div class="search-form position-relative">
+                                        <button type="submit" class="fa fa-search close-search search-button"></button>
+                                        <input type="text" name="search" class="search-input" placeholder="Enter your keywords..." autocomplete="off" />
+                                    </div>
+                                </form>
+                            </div>
                             <div class="header-social-icon xs-display-none">
-                                <a href="https://www.facebook.com/Tesla.IIITA/" title="Facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="https://www.facebook.com/" title="Facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                                 <a href="https://twitter.com/" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+                                <a href="https://dribbble.com/" title="Dribbble" target="_blank"><i class="fa fa-dribbble"></i></a>                          
                             </div>
                         </div>
                     </div>
@@ -116,12 +127,54 @@
                         <span class="alt-font text-small text-uppercase">We would love to work with you</span>
                         <h2 class="alt-font font-weight-600 letter-spacing-minus-1 text-extra-dark-gray">How we can help</h2>
                         <p class="width-75 center-col xs-width-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum has been the industry. Lorem Ipsum is simply dummy text of the printing and industry.</p>
-                        <a href="#start-your-project" class="btn btn-large btn-transparent-dark-gray margin-10px-top inner-link">Start your Project</a>
+                        <a href="#" data-toggle="modal" data-target="#start-your-project" class="btn btn-large btn-transparent-dark-gray margin-10px-top inner-link">Start your Project</a>
                     </div>
                 </div>
             </div>
         </section>
         <!-- end help section -->
+        <div class="modal" id="start-your-project">
+            <div class="modal-dialog" style="width: 50%">
+                <div class="modal-content">
+       <section class="wow fadeIn full-screen bg-light-gray"  style="width: 100%; margin: 0 auto; padding: 12% 0">
+            <div class="container"  style="width: 90%; margin: 0 auto">
+                <div class="row">
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 center-col margin-eight-bottom sm-margin-40px-bottom xs-margin-30px-bottom text-center last-paragraph-no-margin">
+                        <h5 class="alt-font font-weight-600 text-extra-dark-gray text-uppercase">tell us about your project</h5>
+                        <p>Write a short description of your project and properly write the Components you required (with full description about component).</p>
+                    </div>  
+                </div>
+                <form id="project-contact-form" action="javascript:void(0)" method="post" />
+                    <div class="row">
+                         <div class="col-md-12">
+                            <div id="success-project-contact-form" class="no-margin-lr"></div>
+                        </div>
+                        <div class="col-md-12">
+                            <input type="text" name="name" id="name" placeholder="Name *" class="big-input" />
+                        </div>
+                        <div class="col-md-12">
+                            <input type="text" name="phone" id="phone" placeholder="Phone" class="big-input" />
+                        </div>
+                        <div class="col-md-12">
+                            <input type="text" name="email" id="email" placeholder="E-mail *" class="big-input" />
+                        </div>
+                        <div class="col-md-12">
+                            <textarea name="comment" id="Components" placeholder="Components Required" rows="6" class="big-textarea"></textarea>
+                        </div>
+                        <div class="col-md-12">
+                            <textarea name="comment" id="comment" placeholder="Describe your project" rows="6" class="big-textarea"></textarea>
+                        </div>
+                        <div class="col-md-12 text-center">
+                            <button id="project-contact-us-button" type="submit" class="btn btn-transparent-dark-gray btn-large margin-20px-top" style="border-radius: 25px">send message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+</div>
+</div>
+
         <!-- start contact section -->
         <section class="no-padding bg-extra-dark-gray">
             <div class="container-fluid">
@@ -173,7 +226,7 @@
         </section>
         <!-- end contact section -->        
         <!-- start form section -->
-        <section class="wow fadeIn" id="start-your-project">
+        <section class="wow fadeIn">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12 center-col margin-eight-bottom sm-margin-40px-bottom xs-margin-30px-bottom text-center last-paragraph-no-margin">
