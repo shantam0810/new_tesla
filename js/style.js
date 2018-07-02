@@ -1,8 +1,8 @@
 'use strict';
 
-var numberofitems = $('#loop .list-group').length;
+var numberofitems = $('#loop .list-sec').length;
 var limitperpage = 4;
-$("#loop .list-group:gt(" + (limitperpage - 1) + ")").hide();
+$("#loop .list-sec:gt(" + (limitperpage - 1) + ")").hide();
 var totalpages = Math.ceil(numberofitems / limitperpage);
 $('.paginate').append("<li class='current-page active'><a href='javascript:void(0)'>" + 1 + "</a></li>");
 
@@ -20,10 +20,10 @@ $(".paginate li.current-page").on("click" , function(){
         var currentpage = $(this).index();
         $(".paginate li").removeClass("active");
         $(this).addClass("active");
-        $("#loop .list-group").hide();
+        $("#loop .list-sec").hide();
         var grandTotal = limitperpage * currentpage;
         for(var i = grandTotal - limitperpage;i < grandTotal;i++){
-            $("#loop .list-group:eq(" + i + ")").show();
+            $("#loop .list-sec:eq(" + i + ")").show();
         }
     }
 
@@ -37,11 +37,11 @@ $("#next-page").on("click" , function(){
     else{
         currentpage++;
         $(".paginate li").removeClass("active");
-        $("#loop .list-group").hide();
+        $("#loop .list-sec").hide();
 
         var grandTotal = limitperpage * currentpage;
         for(var i = grandTotal-limitperpage;i<grandTotal;i++){
-            $("#loop .list-group:eq(" + i + ")").show();
+            $("#loop .list-sec:eq(" + i + ")").show();
         }
         $(".paginate li.current-page:eq(" + (currentpage - 1) + ")").addClass("active");
     }
@@ -55,11 +55,11 @@ $("#previous-page").on("click" , function(){
     else{
         currentpage--;
         $(".paginate li").removeClass("active");
-        $("#loop .list-group").hide();
+        $("#loop .list-sec").hide();
 
         var grandTotal = limitperpage * currentpage;
         for(var i = grandTotal-limitperpage;i<grandTotal;i++){
-            $("#loop .list-group:eq(" + i + ")").show();
+            $("#loop .list-sec:eq(" + i + ")").show();
         }
         $(".paginate li.current-page:eq(" + (currentpage - 1) + ")").addClass("active");
     }

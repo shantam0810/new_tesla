@@ -3781,4 +3781,10 @@ aside .latest-post li figure {width: 75px;}
     }
 };
 
+@media (max-width: 767px){
+    .pad-pro{
+        padding-left: 15px;
+    }
+}
+
 
