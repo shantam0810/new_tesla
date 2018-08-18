@@ -50,7 +50,7 @@
                     <div class="row">
                         <!-- start logo -->
                         <div class="col-md-4 col-xs-8">
-                            <a href="./index.html" title="Tesla" class="logo"><img src="./images/tesla.jpg" alt="Tesla" class="logo-light default" /><img src="./images/tesla.jpg" class="logo-dark" alt="Tesla" /></a>
+                            <a href="./index.php" title="Tesla" class="logo"><img src="./images/tesla.jpg" alt="Tesla" class="logo-light default" /><img src="./images/tesla.jpg" class="logo-dark" alt="Tesla" /></a>
                         </div>
                         
 
@@ -66,31 +66,31 @@
                                 <ul id="accordion" class="nav navbar-nav navbar-left no-margin alt-font text-normal" data-in="fadeIn" data-out="fadeOut">
                                     <!-- start menu item -->
                                     <li class="dropdown megamenu-fw text-center">
-                                        <a href="index.html">Home</a><i class="fa dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
+                                        <a href="index.php">Home</a><i class="fa dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
                                         <!-- start sub menu -->
                                         
                                     </li>
                                     <!-- end menu item -->
-                                    <li class="dropdown simple-dropdown text-center"><a href="./team.html">Team</a><i class="fa dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
+                                    <li class="dropdown simple-dropdown text-center"><a href="./team.php">Team</a><i class="fa dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
                                        
                                     </li>
                                     <li class="dropdown simple-dropdown text-center"><a href="#">Wings</a><i class="fa fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
                                         <ul class="dropdown-menu">
-                                            <li><a href="wings-ROBOTICS.html">Robotics</a></li>
-                                            <li><a href="wings-IOT.html">Internet of Things</a></li>
-                                            <li><a href="wings-EDA.html">EDA</a></li>
+                                            <li><a href="wings-ROBOTICS.php">Robotics</a></li>
+                                            <li><a href="wings-IOT.php">Internet of Things</a></li>
+                                            <li><a href="wings-EDA.php">EDA</a></li>
                                      
                                         </ul>
                                     </li>
-                                    <li class="dropdown simple-dropdown text-center"><a href="./gallery.html">Gallery</a><i class="fa dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
+                                    <li class="dropdown simple-dropdown text-center"><a href="./gallery.php">Gallery</a><i class="fa dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
                                        
                                     </li>
                                     
-                                    <li class="dropdown simple-dropdown text-center"><a href="./event.html" title="Blog">Events</a><i class="fa dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
+                                    <li class="dropdown simple-dropdown text-center"><a href="./event.php" title="Blog">Events</a><i class="fa dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
                                         
                                     </li>
                                     <li class="dropdown megamenu-fw text-center">
-                                        <a href="contact.html">Contact</a><i class="fa dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
+                                        <a href="contact.php">Contact</a><i class="fa dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
                                         
                                     </li>
                                     

@@ -55,7 +55,7 @@
                     <div class="row">
                         <!-- start logo -->
                         <div class="col-md-4 col-xs-8">
-                            <a href="./index.html" title="Tesla" class="logo"><img src="./images/tesla.jpg" alt="Tesla" class="logo-light default"  /><img src="./images/tesla.jpg" class="logo-dark"  alt="Tesla" /></a>
+                            <a href="./index.php" title="Tesla" class="logo"><img src="./images/tesla.jpg" alt="Tesla" class="logo-light default"  /><img src="./images/tesla.jpg" class="logo-dark"  alt="Tesla" /></a>
                         </div>
                         
 
@@ -71,31 +71,31 @@
                                 <ul id="accordion" class="nav navbar-nav navbar-left no-margin alt-font text-normal" data-in="fadeIn" data-out="fadeOut">
                                     <!-- start menu item -->
                                     <li class="dropdown megamenu-fw text-center">
-                                        <a href="index.html">Home</a><i class="fa dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
+                                        <a href="index.php">Home</a><i class="fa dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
                                         <!-- start sub menu -->
                                         
                                     </li>
                                     <!-- end menu item -->
-                                    <li class="dropdown simple-dropdown text-center"><a href="./team.html">Team</a><i class="fa dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
+                                    <li class="dropdown simple-dropdown text-center"><a href="./team.php">Team</a><i class="fa dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
                                        
                                     </li>
                                     <li class="dropdown simple-dropdown text-center"><a href="#">Wings</a><i class="fa fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
                                         <ul class="dropdown-menu">
-                                            <li><a href="wings-ROBOTICS.html">Robotics</a></li>
-                                            <li><a href="wings-IOT.html">Internet of Things</a></li>
-                                            <li><a href="wings-EDA.html">EDA</a></li>
+                                            <li><a href="wings-ROBOTICS.php">Robotics</a></li>
+                                            <li><a href="wings-IOT.php">Internet of Things</a></li>
+                                            <li><a href="wings-EDA.php">EDA</a></li>
                                      
                                         </ul>
                                     </li>
-                                    <li class="dropdown simple-dropdown text-center"><a href="./gallery.html">Gallery</a><i class="fa dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
+                                    <li class="dropdown simple-dropdown text-center"><a href="./gallery.php">Gallery</a><i class="fa dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
                                        
                                     </li>
                                     
-                                    <li class="dropdown simple-dropdown text-center"><a href="./event.html" title="Blog">Events</a><i class="fa dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
+                                    <li class="dropdown simple-dropdown text-center"><a href="./event.php" title="Blog">Events</a><i class="fa dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
                                         
                                     </li>
                                     <!--<li class="dropdown megamenu-fw text-center">
-                                        <a href="./contact.html">Contact</a><i class="fa dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
+                                        <a href="./contact.php">Contact</a><i class="fa dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
                                         
                                     </li>-->
                                     
@@ -236,34 +236,34 @@
                         <!-- start feature box item -->
                         <div class="col-md-4 col-sm-4 col-xs-12 xs-margin-30px-bottom wow fadeInUp last-paragraph-no-margin xs-text-center">
                             <div class="margin-ten-bottom overflow-hidden image-hover-style-1 sm-margin-20px-bottom">
-                                <a href="wings-ROBOTICS.html"><img src="./images/ROBOTICS.jpg" alt="" /></a>
+                                <a href="wings-ROBOTICS.php"><img src="./images/ROBOTICS.jpg" alt="" /></a>
                             </div>
-                            <a href="wings-ROBOTICS.html" class="alt-font margin-5px-bottom display-block text-extra-dark-gray font-weight-500 text-uppercase "><u>ROBOTICS WING</u></a>
+                            <a href="wings-ROBOTICS.php" class="alt-font margin-5px-bottom display-block text-extra-dark-gray font-weight-500 text-uppercase "><u>ROBOTICS WING</u></a>
                             <p class="width-95 sm-width-100">Robotics deals with the design, construction, operation, and use of robots, as well as computer systems for their control, sensory feedback, and information processing..</p>
                             <div class="separator-line-horrizontal-full bg-medium-light-gray margin-20px-tb sm-margin-15px-tb"></div>
-                            <a href="wings-ROBOTICS.html" class="text-uppercase alt-font text-extra-dark-gray font-weight-500">View Wing <i class="fa fa-long-arrow-right margin-5px-left text-deep-pink text-medium position-relative top-2" aria-hidden="true"></i></a>
+                            <a href="wings-ROBOTICS.php" class="text-uppercase alt-font text-extra-dark-gray font-weight-500">View Wing <i class="fa fa-long-arrow-right margin-5px-left text-deep-pink text-medium position-relative top-2" aria-hidden="true"></i></a>
                         </div>
                         <!-- end feature box item -->
                         <!-- start feature box item -->
                         <div class="col-md-4 col-sm-4 col-xs-12 xs-margin-30px-bottom wow fadeInUp last-paragraph-no-margin xs-text-center" data-wow-delay="0.2s">
                             <div class="margin-ten-bottom overflow-hidden image-hover-style-1 sm-margin-20px-bottom">
-                                <a href="wings-IOT.html"><img src="./images/IOT.jpg" alt="" /></a>
+                                <a href="wings-IOT.php"><img src="./images/IOT.jpg" alt="" /></a>
                             </div>
-                            <a href="wings-IOT.html" class="alt-font margin-5px-bottom display-block text-extra-dark-gray font-weight-500 text-uppercase "><u>Internet Of Things</u></a>
+                            <a href="wings-IOT.php" class="alt-font margin-5px-bottom display-block text-extra-dark-gray font-weight-500 text-uppercase "><u>Internet Of Things</u></a>
                             <p class="width-95 sm-width-100">The Internet of Things (IoT) is the network of physical devices, vehicles, home appliances and other items embedded with electronics, software, sensors, actuators,.</p>
                             <div class="separator-line-horrizontal-full bg-medium-light-gray margin-20px-tb sm-margin-15px-tb"></div>
-                            <a href="wings-IOT.html" class="text-uppercase alt-font text-extra-dark-gray font-weight-500 ">View Wing <i class="fa fa-long-arrow-right margin-5px-left text-deep-pink text-medium position-relative top-2" aria-hidden="true"></i></a>
+                            <a href="wings-IOT.php" class="text-uppercase alt-font text-extra-dark-gray font-weight-500 ">View Wing <i class="fa fa-long-arrow-right margin-5px-left text-deep-pink text-medium position-relative top-2" aria-hidden="true"></i></a>
                         </div>
                         <!-- end feature box item -->
                         <!-- start feature box item -->
                         <div class="col-md-4 col-sm-4 col-xs-12 wow fadeInUp last-paragraph-no-margin xs-text-center" data-wow-delay="0.4s">
                             <div class="margin-ten-bottom overflow-hidden image-hover-style-1 sm-margin-20px-bottom">
-                                <a href="wings-EDA.html"><img src="./images/bg.jpg" alt="" /></a>
+                                <a href="wings-EDA.php"><img src="./images/bg.jpg" alt="" /></a>
                             </div>
-                            <a href="wings-EDA.html" class="alt-font margin-5px-bottom display-block text-extra-dark-gray font-weight-500 text-uppercase"><u>Electronic Design Automation</u></a>
+                            <a href="wings-EDA.php" class="alt-font margin-5px-bottom display-block text-extra-dark-gray font-weight-500 text-uppercase"><u>Electronic Design Automation</u></a>
                             <p class="width-95 sm-width-100">Electronic design automation (EDA), also referred to as electronic computer-aided design, is a category of software tools for designing electronic systems such as integrated circuits and printed circuit boards..</p>
                             <div class="separator-line-horrizontal-full bg-medium-light-gray margin-20px-tb sm-margin-15px-tb"></div>
-                            <a href="wings-EDA.html" class="text-uppercase alt-font text-extra-dark-gray font-weight-500 ">View Wing <i class="fa fa-long-arrow-right margin-5px-left text-deep-pink text-medium position-relative top-2" aria-hidden="true"></i></a>
+                            <a href="wings-EDA.php" class="text-uppercase alt-font text-extra-dark-gray font-weight-500 ">View Wing <i class="fa fa-long-arrow-right margin-5px-left text-deep-pink text-medium position-relative top-2" aria-hidden="true"></i></a>
                         </div>                    
                         <!-- end feature box item -->
                     </div>
@@ -284,7 +284,7 @@
             <div class="col-md-4 col-sm-2 col-xs-12 text-center display-table xs-margin-10px-bottom">
                 <div class="display-table-cell vertical-align-middle">
                         <a href="https://www.iiita.ac.in/" title="IIITA" class="logo"><img src="./images/IIIT_logo.gif" alt="IIITA" style="width: 85px; height: 85px" class="logo-light default" />
-                    <!--<a href="./index.html"><img class="footer-logo" src="./images/logo-white.png" alt="" /></a>-->
+                    <!--<a href="./index.php"><img class="footer-logo" src="./images/logo-white.png" alt="" /></a>-->
                 </div>
             </div>
             <!-- end logo -->
